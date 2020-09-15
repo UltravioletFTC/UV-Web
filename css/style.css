@@ -1979,3 +1979,12 @@ h1, h2, h3, h4, h5,
   background-color: #8f00ff !important;
   border-color: #8f00ff !important;
   color: #fff; }
+
+  .center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
